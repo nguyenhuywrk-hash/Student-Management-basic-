@@ -1,0 +1,111 @@
+# ============================
+# GLOBAL / SYSTEM
+# ============================
+.DS_Store
+Thumbs.db
+*.log
+*.tmp
+*.bak
+*.swp
+*.swo
+*.swn
+*.swp
+*.orig
+*.class
+.vscode/
+.idea/
+*.iml
+.env
+.env.local
+.env.development
+.env.production
+.env.test
+
+# ============================
+# BACKEND - SPRING BOOT
+# ============================
+
+# Maven
+backend/target/
+backend/.mvn/
+backend/mvnw
+backend/mvnw.cmd
+backend/.mvn/wrapper/maven-wrapper.jar
+
+# Gradle
+backend/.gradle/
+backend/build/
+backend/gradlew
+backend/gradlew.bat
+backend/gradle/
+backend/out/
+
+# IntelliJ / Eclipse / STS
+backend/.idea/
+backend/.settings/
+backend/.classpath
+backend/.project
+backend/.factorypath
+backend/.apt_generated/
+backend/.springBeans
+backend/.sts4-cache/
+
+# Logs
+backend/logs/
+backend/*.log
+
+# Test output
+backend/surefire-reports/
+backend/jacoco.exec
+
+# ============================
+# FRONTEND - REACT (Vite / CRA)
+# ============================
+
+# dependencies
+frontend/node_modules/
+
+# production build
+frontend/build/
+frontend/dist/
+
+# misc
+frontend/.DS_Store
+frontend/*.log
+frontend/npm-debug.log*
+frontend/yarn-debug.log*
+frontend/yarn-error.log*
+
+# local env files
+frontend/.env
+frontend/.env.local
+frontend/.env.development.local
+frontend/.env.test.local
+frontend/.env.production.local
+
+# IDE
+frontend/.idea/
+frontend/.vscode/
+frontend/*.iml
+
+# lock files (optional, nếu bạn không muốn commit)
+# frontend/package-lock.json
+# frontend/yarn.lock
+
+# ============================
+# ROOT / GLOBAL IGNORE
+# ============================
+
+# OS files
+ehthumbs.db
+Icon?
+Desktop.ini
+
+# Archives
+*.zip
+*.tar.gz
+*.rar
+*.7z
+
+# Backup files
+*~
